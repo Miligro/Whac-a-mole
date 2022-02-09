@@ -1,0 +1,2 @@
+port=20001
+time_per_game=5

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MyGame</class>
+ <widget class="QDialog" name="MyGame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>379</width>
+    <height>268</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MyGame</string>
+  </property>
+  <widget class="QPushButton" name="confirmBtn">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>220</y>
+     <width>83</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Zatwierdź</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="username">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>180</y>
+     <width>113</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="maxLength">
+    <number>20</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="connectStatus">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>10</y>
+     <width>201</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Status połączenia: rozłączono</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>140</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>DejaVu Sans</family>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Podaj nazwę użytkownika</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="connectBtn">
+   <property name="geometry">
+    <rect>
+     <x>272</x>
+     <y>30</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Połącz</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>80</y>
+     <width>361</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>DejaVu Serif</family>
+     <pointsize>16</pointsize>
+     <weight>50</weight>
+     <italic>true</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Whac-a-mole</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="serverAddress">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>127.0.0.1</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="serverPort">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>30</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>65535</number>
+   </property>
+   <property name="value">
+    <number>20001</number>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

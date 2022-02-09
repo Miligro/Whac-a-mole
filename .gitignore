@@ -1,0 +1,4 @@
+build/
+.vscode
+game_client/CMakeLists.txt.user
+a.out
